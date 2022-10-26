@@ -1,3 +1,5 @@
+-- premake5.lua
+
 project("GLFW")
 	kind("StaticLib")
 	language("C")
@@ -63,3 +65,5 @@ project("GLFW")
 		defines({
 			"_GLFW_X11"
 		})
+
+	filter({})
